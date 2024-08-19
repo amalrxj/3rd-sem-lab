@@ -19,6 +19,7 @@ int main()
       printf("element is found at the position:");
       break;
     }
+    
     else if (item > a[mid])
     {
       low = mid + 1;
@@ -29,6 +30,7 @@ int main()
     }
   }
   if (low > high)
+
   {
     printf("Element is not found");
   }

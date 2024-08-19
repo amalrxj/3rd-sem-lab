@@ -28,7 +28,7 @@ int main()
   printf("After Sorting: ");
   for (i = 0; i < n; i++)
   {
-    printf("%d\t", a[i]);
+    printf("%d ", a[i]);
   }
   return 0;
 }
