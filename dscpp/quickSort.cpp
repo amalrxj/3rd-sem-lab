@@ -60,7 +60,7 @@ void quickSort::sort(int arr[], int low, int high)
 void quickSort::display()
 {
     int i;
-    cout << "\nSorted array: ";
+    cout << "\nSorted array: ";                  
     for (i = 0; i < n; i++)
     {
         cout << arr[i]<<" ";
